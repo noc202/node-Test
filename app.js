@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Basic route
 app.get('/', (req, res) => {
-    res.send('this is Automation server!');
+    res.send('this is Devops server!');
 });
 
 // Start server
