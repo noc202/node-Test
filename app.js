@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Basic route
 app.get('/', (req, res) => {
-    res.send('this is automation server!');
+    res.send('this is Automation server!');
 });
 
 // Start server
