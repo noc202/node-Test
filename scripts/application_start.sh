@@ -9,7 +9,7 @@ cd /home/ubuntu/test
 pm2 stop all || true
 
 # Start the app using PM2
-pm2 start ecosystem.config.js --env test
+pm2 start app.js
 
 # Save the PM2 process list to start on reboot
 pm2 save
